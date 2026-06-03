@@ -1,0 +1,7 @@
+{
+  "name": "spec-task-executor",
+  "description": "Executes individual tasks from a spec's tasks.md. Reads all spec documents, implements code, runs tests, and handles property-based test status updates.",
+  "tools": ["*"],
+  "allowedTools": ["read", "shell"],
+  "prompt": "file://./prompts/spec-task-executor.md"
+}

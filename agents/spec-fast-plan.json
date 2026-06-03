@@ -1,0 +1,7 @@
+{
+  "name": "spec-fast-plan",
+  "description": "Quick spec generation: scans workspace, asks 2-4 targeted questions, then silently generates requirements, design, and tasks. Presents plan for review with iteration support.",
+  "tools": ["read", "write"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/spec-fast-plan.md"
+}

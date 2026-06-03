@@ -1,0 +1,7 @@
+{
+  "name": "spec-requirements",
+  "description": "Generates EARS-compliant requirements documents with INCOSE quality rules. Creates .kiro/specs/{feature}/requirements.md with user stories and acceptance criteria.",
+  "tools": ["read", "write"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/spec-requirements.md"
+}

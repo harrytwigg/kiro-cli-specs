@@ -1,0 +1,7 @@
+{
+  "name": "spec-bugfix",
+  "description": "Creates bugfix specs using bug condition methodology (C(X), F, F'). Generates bugfix.md, design.md, and tasks.md with fix checking and preservation checking.",
+  "tools": ["read", "write"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/spec-bugfix.md"
+}

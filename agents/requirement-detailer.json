@@ -1,0 +1,7 @@
+{
+  "name": "requirement-detailer",
+  "description": "Refines individual requirements through 5-phase vagueness detection and gap analysis. Makes acceptance criteria testable and unambiguous so two independent testers reach identical pass/fail results.",
+  "tools": ["read"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/requirement-detailer.md"
+}

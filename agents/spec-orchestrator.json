@@ -1,0 +1,7 @@
+{
+  "name": "spec-orchestrator",
+  "description": "Orchestrates spec-driven development workflows. Use this agent to create feature specs, bugfix specs, or quick plans. It selects the workflow type and delegates to specialized agents for each phase (requirements, design, tasks).",
+  "tools": ["read", "write", "shell"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/spec-orchestrator.md"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "spec-design",
+  "description": "Creates technical design documents with architecture, interfaces, correctness properties, and testing strategy. Creates .kiro/specs/{feature}/design.md",
+  "tools": ["read", "write"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/spec-design.md"
+}

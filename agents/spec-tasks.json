@@ -1,0 +1,7 @@
+{
+  "name": "spec-tasks",
+  "description": "Converts design into actionable coding tasks with dependency graph. Creates .kiro/specs/{feature}/tasks.md with checkbox format and requirement traceability.",
+  "tools": ["read", "write"],
+  "allowedTools": ["read"],
+  "prompt": "file://./prompts/spec-tasks.md"
+}
