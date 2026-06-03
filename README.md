@@ -35,6 +35,63 @@ These agents guide you — or your AI assistant — through creating and executi
 
 ---
 
+## Example Flow
+
+```
+🤖 spec-orchestrator › Help me create a spec to build a new webserver
+
+I can help you create a spec for a new webserver. To generate a good spec, 
+I need a bit more information about what you're looking for:
+
+ 1. Language/framework — Do you have a preference? (e.g., Node.js, Go, Rust, FastAPI)
+ 2. Purpose — What will the server do? (REST API, static file serving, proxy, etc.)
+ 3. Key features — Any specific requirements? (auth, database, WebSockets, rate limiting)
+ 4. Deployment target — Where will it run? (AWS, Docker, bare metal, etc.)
+
+Or if you'd like, I can kick off the spec orchestrator agent which will walk 
+you through a structured requirements → design → tasks workflow interactively. 
+Want me to do that?
+
+[ 💰 Credits: 0.16 • ⏱️ Time: 6s ]
+─────────────────────────────────────────────────────────────────────────────────
+
+🤖 spec-orchestrator › Help me create a spec to build a new webserver
+
+I'd be happy to help you build a spec for a new webserver! Before we get 
+started, I'd like to confirm:
+
+What type of spec would you like to create?
+
+ 1. Build a Feature — Define the webserver as new functionality with full 
+                      requirements, design, and implementation tasks.
+ 2. Quick Plan       — Auto-generate a complete spec with minimal back-and-forth.
+
+Since you're building something new, I'd recommend option 1. 
+Which would you prefer?
+
+[ 💰 Credits: 0.03 • ⏱️ Time: 3s ]
+─────────────────────────────────────────────────────────────────────────────────
+
+❯ 1
+
+🤖 spec-orchestrator › Great! Now, how would you like to approach building out the spec?
+
+ 1. Requirements First — Start by gathering what the webserver needs to do, 
+                         then figure out how to build it.
+   - Best when: you know what you need but haven't decided on the technical approach yet.
+
+ 2. Design First       — Start with the technical architecture, then formalize 
+                         requirements from that.
+   - Best when: you already have a clear technical vision in mind.
+
+Which approach works better for you?
+
+[ 💰 Credits: 0.02 • ⏱️ Time: 3s ]
+─────────────────────────────────────────────────────────────────────────────────
+```
+
+---
+
 ## Agents
 
 ### `spec-orchestrator`
