@@ -65,13 +65,28 @@ Refines individual requirements through 5-phase vagueness detection and gap anal
 
 ## Usage
 
-Run the one-line installer (see [Install](#install) above), then invoke an agent from your CLI assistant. For example, with GitHub Copilot CLI:
+Run the one-line installer (see [Install](#install) above), then invoke agents via `kiro-cli`:
 
-```
-@spec-orchestrator I want to add OAuth2 login to the API
+**Start chat with a specific agent directly:**
+```bash
+kiro-cli chat --agent spec-orchestrator
+kiro-cli chat --agent spec-fast-plan
+kiro-cli chat --agent spec-bugfix
 ```
 
-The orchestrator will guide you through requirements → design → tasks, then you can execute tasks one at a time with `@spec-task-executor`.
+**Or launch `kiro-cli` and pick an agent interactively:**
+```bash
+kiro-cli
+# then inside the session, type:
+/agent
+```
+
+**List all installed agents:**
+```bash
+kiro-cli agent list
+```
+
+The orchestrator will guide you through requirements → design → tasks, then you can execute tasks one at a time with `kiro-cli chat --agent spec-task-executor`.
 
 ---
 
