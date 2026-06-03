@@ -40,23 +40,6 @@ These agents guide you — or your AI assistant — through creating and executi
 ```
 🤖 spec-orchestrator › Help me create a spec to build a new webserver
 
-I can help you create a spec for a new webserver. To generate a good spec, 
-I need a bit more information about what you're looking for:
-
- 1. Language/framework — Do you have a preference? (e.g., Node.js, Go, Rust, FastAPI)
- 2. Purpose — What will the server do? (REST API, static file serving, proxy, etc.)
- 3. Key features — Any specific requirements? (auth, database, WebSockets, rate limiting)
- 4. Deployment target — Where will it run? (AWS, Docker, bare metal, etc.)
-
-Or if you'd like, I can kick off the spec orchestrator agent which will walk 
-you through a structured requirements → design → tasks workflow interactively. 
-Want me to do that?
-
-[ 💰 Credits: 0.16 • ⏱️ Time: 6s ]
-─────────────────────────────────────────────────────────────────────────────────
-
-🤖 spec-orchestrator › Help me create a spec to build a new webserver
-
 I'd be happy to help you build a spec for a new webserver! Before we get 
 started, I'd like to confirm:
 
