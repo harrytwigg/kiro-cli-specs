@@ -4,6 +4,21 @@
 
 ---
 
+## Install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/harrytwigg/kiro-cli-specs/main/install.sh | bash
+```
+
+The script will:
+- Download all agents into `~/.kiro/agents/`
+- Detect any existing agents and **ask before overriding** them
+- Exit cleanly with no changes if you decline
+
+> **Note:** This repo must be public (or you must be authenticated) for the raw URL to resolve. If the repo is private, clone it and run `install.sh` directly.
+
+---
+
 ## Overview
 
 This repository contains a set of AI agents that implement **spec-driven development** directly in your terminal. The agents replicate the structured specs workflow found in the Kiro IDE, making it available to any CLI-based AI coding assistant (such as GitHub Copilot CLI).
@@ -50,13 +65,7 @@ Refines individual requirements through 5-phase vagueness detection and gap anal
 
 ## Usage
 
-Copy the `agents/` directory into your project's `.kiro/` folder:
-
-```bash
-cp -r agents/ /your/project/.kiro/agents/
-```
-
-Then invoke an agent from your CLI assistant. For example, with GitHub Copilot CLI:
+Run the one-line installer (see [Install](#install) above), then invoke an agent from your CLI assistant. For example, with GitHub Copilot CLI:
 
 ```
 @spec-orchestrator I want to add OAuth2 login to the API
