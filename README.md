@@ -120,3 +120,7 @@ agents/
 > **Kiro** and **Kiro CLI** are products and trademarks of **Amazon Web Services (AWS)**. This repository is an independent community project that adapts the spec-driven development workflow inspired by the Kiro IDE for use in CLI environments. It is not affiliated with, endorsed by, or officially supported by Amazon Web Services or any of its subsidiaries. All references to Kiro, the Kiro IDE, and related concepts remain the intellectual property of AWS.
 >
 > Use of this repository is subject to your own discretion. Nothing in this repository should be construed as an official AWS or Kiro product, service, or offering.
+>
+>The spec files contained in this repository were copied directly from the official AWS Kiro source. This was done because the kiro-cli does not currently include these specific files out of the box.
+>
+>This repository is an independent, community-driven workaround and is not officially maintained, endorsed, or supported by Amazon Web Services (AWS) or the Kiro development team. All rights, trademarks, and intellectual property regarding Kiro and the Kiro IDE belong entirely to AWS.
