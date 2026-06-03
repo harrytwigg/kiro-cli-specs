@@ -15,8 +15,6 @@ The script will:
 - Detect any existing agents and **ask before overriding** them
 - Exit cleanly with no changes if you decline
 
-> **Note:** This repo must be public (or you must be authenticated) for the raw URL to resolve. If the repo is private, clone it and run `install.sh` directly.
-
 ---
 
 ## Overview
