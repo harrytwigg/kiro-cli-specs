@@ -1,5 +1,7 @@
 # kiro-cli-specs
 
+Deprecated please use native specs https://kiro.dev/docs/cli/v3/
+
 > Spec-driven development agents for terminal environments — bringing the [Kiro IDE](https://kiro.dev) specs workflow to the CLI.
 
 ---
